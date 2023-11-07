@@ -1,6 +1,6 @@
 import "./App.css";
 import Listado from "./assets/Componentes/Listado";
-import { BaseColaboradores } from "./assets/BAseColaboradores";
+import { BaseColaboradores } from "./assets/BaseColaboradores";
 import { useState } from "react";
 import Buscador from "./assets/Componentes/Buscador";
 import Formulario from "./assets/Componentes/Formulario";
