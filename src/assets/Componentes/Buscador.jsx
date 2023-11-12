@@ -30,6 +30,9 @@ function Buscador({ datos, dataFiltro }) {
       <button type="submit" onClick={handleSubmit}>
         Buscar
       </button>
+      <div className="boton">
+        <button onClick={resetPage}>Resetea Aquí</button>
+      </div>
     </div>
   );
 }
