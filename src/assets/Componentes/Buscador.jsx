@@ -19,6 +19,10 @@ function Buscador({ datos, dataFiltro }) {
     dataFiltro(resultados);
   };
 
+    const resetPage = () => {
+    window.location.reload();
+  };
+
   return (
     <div className="barraBuscador">
       <input
