@@ -19,6 +19,10 @@ function Buscador({ datos, dataFiltro }) {
     dataFiltro(resultados);
   };
 
+    const resetPage = () => {
+    window.location.reload();
+  };
+
   return (
     <div className="barraBuscador">
       <input
@@ -30,6 +34,9 @@ function Buscador({ datos, dataFiltro }) {
       <button type="submit" onClick={handleSubmit}>
         Buscar
       </button>
+      <div className="boton">
+        <button onClick={resetPage}>Resetea Aquí</button>
+      </div>
     </div>
   );
 }
